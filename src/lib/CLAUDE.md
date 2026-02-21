@@ -32,7 +32,7 @@ Creates and exports the singleton Supabase client used throughout the app.
 2. **Single-word pattern matching** (35 patterns):
    Each pattern is tested with `\b...\b` word boundary regex. Examples: `seizure`, `poison`, `bloat`, `choking`, `antifreeze`, `xylitol`, `chocolate`, `hemorrhaging`, `bleeding`.
 
-3. **Compound pattern matching** (43 patterns):
+3. **Compound pattern matching** (44 patterns):
    All words in the compound must be present (order doesn't matter). Examples:
    - `['not', 'breathing']` — matches "my dog is not breathing"
    - `['hit', 'car']` — matches "was hit by a car"

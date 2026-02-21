@@ -105,7 +105,7 @@ Runs with **500ms debounce** on symptom input, BEFORE submission. If triggered, 
 
 Three pattern types:
 1. **Single-word** (35 patterns): seizure, poison, choking, antifreeze, xylitol, etc.
-2. **Compound** (43 patterns): all words must be present — "not breathing", "hit by car", "blue gums", "stuck throat", "grey gums", etc.
+2. **Compound** (44 patterns): all words must be present — "not breathing", "hit by car", "blue gums", "stuck throat", "grey gums", etc.
 3. **Symptom clusters** (3 clusters): if N+ keywords appear together — e.g., vomiting + diarrhea + lethargic
 
 ### Loading Screen (3-Second Minimum)

@@ -1,6 +1,6 @@
 # PawCheck — Complete Project Documentation
 
-> Last updated: February 18, 2026
+> Last updated: February 20, 2026
 
 ## Table of Contents
 
@@ -76,7 +76,7 @@ Mobile App (Expo/React Native)
 
 ### Defense-in-Depth Safety
 
-1. **Client-side**: Emergency keyword detection before submission (35 single + 43 compound + 3 cluster patterns)
+1. **Client-side**: Emergency keyword detection before submission (35 single + 44 compound + 3 cluster patterns)
 2. **Server-side Step 3**: Emergency bypass with regex detection (before any expensive operations)
 3. **Server-side Step 4**: Off-topic detection
 4. **Server-side Step 9-10**: LLM with safety-focused system prompt (language rules, urgency rules)

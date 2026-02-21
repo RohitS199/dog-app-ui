@@ -30,7 +30,7 @@ src/
 
 1. **`types/api.ts`** — API contract types. Urgency is `'monitor'` NOT `'low'`. Response discriminated by `type` field.
 2. **`stores/triageStore.ts`** — Most complex store. Handles submission, auto-retry, rate limit handling, cached results, triage nudge.
-3. **`lib/emergencyKeywords.ts`** — Client-side emergency detection. 35 single + 43 compound + 3 cluster patterns. Golden Rule's first line of defense.
+3. **`lib/emergencyKeywords.ts`** — Client-side emergency detection. 35 single + 44 compound + 3 cluster patterns. Golden Rule's first line of defense.
 4. **`stores/dogStore.ts`** — Dog CRUD. `addDog()` must include `user_id` explicitly (RLS requirement).
 5. **`stores/authStore.ts`** — Auth state. `changePassword()` uses `updateUser()` (NOT `resetPasswordForEmail`).
 6. **`constants/theme.ts`** — "Soft Sage and Cream" palette. Urgency colors are safety-critical — do not change.
